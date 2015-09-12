@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WoWBattlePets</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="MainActivityTitle">Enter your character name and choose your realm</string>
+    <string name="characterNameHint">Character Name</string>
+    <string name="realmNameHint">Realm Name</string>
+    <string name="localePrompt">Location</string>
+    <string name="startButtonText">Start</string>
+    <string name="title_activity_pet_results">PetResultsActivity</string>
+
+    <string name="petName">Pet Name</string>
+    <string name="creatureName">Creature Name</string>
+    <string name="petLevel">Lvl ##</string>
+
+    <string name="resultsCount">### pets</string>
+
+
+</resources>
