@@ -3,6 +3,7 @@ package com.brandonespana.wowbattlepets.activities;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -18,7 +19,7 @@ import com.brandonespana.wowbattlepets.utility.HttpCaller;
 import org.json.JSONException;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     private static BattleNetURIHelper uriHelper = new BattleNetURIHelper();
     private EditText characterNameField;
     private AutoCompleteTextView realmNameField;

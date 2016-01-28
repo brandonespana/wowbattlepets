@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class JsonResponseParser {
     public List<BattlePet> retrieveListOfBattlePets(String jsonResponse) throws JSONException {
-        List<BattlePet> battlePets = new ArrayList<>();
+        List<BattlePet> battlePets = new ArrayList();
 
         JSONObject responseObject = new JSONObject(jsonResponse);
         JSONObject pets = responseObject.getJSONObject("pets");
